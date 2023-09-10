@@ -61,4 +61,4 @@ cd frontend
 npm run frontend
 ```
 
-After following the above steps, you could see the project in the `localhost` at port `3000`.
+After following the above steps, you could access the project using localhost.
