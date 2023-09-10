@@ -16,6 +16,7 @@ run, ensure you have the following things installed in your local device:
 `Note:` After installing, **Make sure you add above tools into the environment variable** of your box so that the project files can access them.
 
 To replicate the development environment, follow the given steps below:  
+  
 `Step 1:` To clone the repository
 ```
 git clone https://github.com/Darshan-2021-11/HealthWise
