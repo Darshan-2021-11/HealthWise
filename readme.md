@@ -13,7 +13,9 @@ run, ensure you have the following things installed in your local device:
 - [_nodejs_](https://nodejs.org/en/download "Nodejs Download Link")
 - [_MongoDB Atlas With Compass_](https://www.mongodb.com/products/tools)
 
-`Note:` After installing, **Make sure you add above tools into the environment variable** of your box so that the project files can access them.
+`Note:`
+1. After installing, **Make sure you add above tools into the environment variable** of your box so that the project files can access them.
+2. All the further commands are assuming that you are in you favourite shell in the main project directory i.e. under teh name `HealthWise`.
 
 To replicate the development environment, follow the given steps below:  
   
@@ -36,3 +38,28 @@ npm install
 
 Following the above steps will ensure you have your setup ready for basic
 functionalities.
+
+## RUNNING THE PROJECT
+  
+### STEP 1: Running backend database
+Go to the installed mongodb atlas application, and start the database server at the uri `mongodb://0.0.0.0:27017/medifree`.  
+You can change this value if you change `DB_URI` in the `.env` file in the main project directory.
+
+Wait until the database server is set up.
+
+### STEP 2: Running backend server
+After running the backend database, go to the main project directory in your terminal, and use the following command to start the backend server.
+```
+cd HealthWise
+npm run dev
+```
+Wait until the backend is started.
+
+### STEP 3: Running the frontend server
+After going through step 2, finally we start the frontend server.
+```
+cd frontend
+npm run frontend
+```
+
+After following the above steps, you could see the project in the `localhost` at port `3000`.
