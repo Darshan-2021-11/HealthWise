@@ -57,7 +57,6 @@ Wait until the backend is started.
 ### STEP 3: Running the frontend server
 After going through step 2, finally we start the frontend server.
 ```
-cd frontend
 npm run frontend
 ```
 
