@@ -1,0 +1,95 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-size: medium;
+  font-weight: 100;
+}
+
+/* Navigation bar container */
+.navigation-bar-div {
+  background-color: #333;
+  /* Dark background color */
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  /* Text color */
+  padding-top: 20px;
+}
+
+/* Logo and name */
+.logo-and-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation list */
+.navigation-bar-ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Navigation items */
+.navigation-bar-ul li {
+  margin-right: 20px;
+  /* Increase spacing between items */
+}
+
+/* Links */
+.navigation-bar-ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  /* Increase padding */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+/* Link hover effect */
+.navigation-bar-ul li a:hover {
+  background-color: #14cd39;
+  /* Hover background color */
+}
+
+/* Active link */
+.navigation-bar-ul li a.active {
+  background-color: #14cd39;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .navigation-bar-div {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navigation-bar-ul {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .navigation-bar-ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Center align logo and name on small screens */
+  .logo-and-name {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Center align links on small screens */
+  .navigation-bar-ul li a {
+    text-align: center;
+    width: 100%;
+  }
+}
