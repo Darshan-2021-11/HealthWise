@@ -41,7 +41,7 @@ functionalities.
 ## RUNNING THE PROJECT
   
 ### STEP 1: Running backend database
-Go to the installed mongodb atlas application, and start the database server at the uri `mongodb://0.0.0.0:27017/medifree`.  
+Go to the installed mongodb atlas application, and start the database server at the uri `mongodb://0.0.0.0:27017/healthwise`.  
 You can change this value if you change `DB_URI` in the `.env` file in the main project directory.
 
 Wait until the database server is set up.
