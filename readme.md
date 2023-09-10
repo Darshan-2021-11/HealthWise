@@ -8,10 +8,10 @@ The following key features of our submission summarised in a video.
 ## PROJECT SETUP
 Before following the steps of setting up the environment for the project to
 run, ensure you have the following things installed in your local device:
-- (_python_) [https://www.python.org/downloads/ "Python Download Link"]
-- (_pytesseract_) [https://github.com/tesseract-ocr/tesseract "PyTesseract Github Link"]
-- (_nodejs_) [https://nodejs.org/en/download "Nodejs Download Link"]
-- (_MongoDB Atlas With Compass_) [https://www.mongodb.com/products/tools]
+- !(_python_)[https://www.python.org/downloads/ "Python Download Link"]
+- !(_pytesseract_)[https://github.com/tesseract-ocr/tesseract "PyTesseract Github Link"]
+- !(_nodejs_)[https://nodejs.org/en/download "Nodejs Download Link"]
+- !(_MongoDB Atlas With Compass_)[https://www.mongodb.com/products/tools]
 
 `Note:` After installing, **Make sure you add above tools into the environment variable** of your box so that the project files can access them.
 
